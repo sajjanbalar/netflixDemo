@@ -122,6 +122,7 @@ class Carousel extends React.Component {
       if(this.state.loaded>=6){
         return (
           <div className="carousel">
+            This is a test text. Can we checck if we aree identifying this?
             <p className="categoryTitle">{this.props.category}</p>
               <div onMouseOut={this.hideArrows} onMouseOver={this.showArrows}>
                   {this.state.showArrows && <PageIndicator maxPage={this.state.maxPage} page={this.state.page} />}
